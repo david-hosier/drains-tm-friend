@@ -6,7 +6,7 @@
 // @author       David Hosier
 // @match        https://www.neverdrains.com/*
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
-// @require      https://greasyfork.org/en/scripts/395037-monkeyconfig-modern/code/monkeyconfig.js?version=764947
+// @require      https://greasyfork.org/scripts/395037-monkeyconfig-modern/code/MonkeyConfig%20Modern.js?version=764968
 // @grant		GM_getValue
 // @grant		GM_setValue
 // @grant		GM_addStyle
