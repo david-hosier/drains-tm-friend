@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Drains Tournament Manager Favorites Highlighter
 // @namespace    https://www.neverdrains.com/
-// @version      0.5
+// @version      0.6
 // @description  Highlights your favorited players in tournaments so that you can more easily follow their ranking.
 // @author       David Hosier
 // @match        https://www.neverdrains.com/*
 // @require      https://code.jquery.com/jquery-3.4.1.min.js
-// @require      https://greasyfork.org/scripts/38445-monkeyconfig/code/MonkeyConfig.js?version=251319
+// @require      https://greasyfork.org/en/scripts/395037-monkeyconfig-modern/code/monkeyconfig.js?version=764947
 // @grant		GM_getValue
 // @grant		GM_setValue
 // @grant		GM_addStyle
@@ -22,8 +22,8 @@
         menuCommand: true,
         params: {
             highlight_color: {
-                type: 'text',
-                default: 'darkorchid'
+                type: 'color',
+                default: '#9932CC'
             },
             page_refresh: {
                 type: 'number',
